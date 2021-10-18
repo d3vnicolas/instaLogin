@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>Instagram</title>
+</head>
+<body>
+    <main>
+        <div class="limit">
+            <div class="left">
+                <div class="left__img-smartphone"></div>
+                <div class="slide img1"></div>
+                <div class="slide img2"></div>
+                <div class="slide img3"></div>
+                <div class="slide img4"></div>
+                <div class="slide img5"></div>
+            </div><!-- left -->
+            <div class="right">
+                <div class="right__block">
+                    <div class="right__block_logo"></div>
+                    <div class="right__block_img-perfil"></div>
+                    <button>Continuar como _nicsoares</button>
+                    <p>
+                        Não é _nicsoares?
+                        <a href="#">Trocar de conta</a>
+                    </p>
+                </div>
+            </div><!-- right -->
+        </div><!-- limit -->
+    </main>
+    <footer>
+        <ul>
+            <li>Sobre</li>
+            <li>Blog</li>
+            <li>Carreiras</li>
+            <li>Ajuda</li>
+            <li>API</li>
+            <li>Privacidade</li>
+            <li>Termos</li>
+            <li>Principais contas</li>
+            <li>Hashtags</li>
+            <li>Localizações</li>
+            <li>Instagram Lite</li>
+        </ul>
+        <ul>
+            <li>Beleza</li>
+            <li>Dança</li>
+            <li>Fitness</li>
+            <li>Comida e bebida</li>
+            <li>Casa e jardim</li>
+            <li>Música</li>
+            <li>Artes visuais</li>
+        </ul>
+        <ul>
+            <li>Português (Brasil)</li>
+            <li> © 2021 Instagram do Facebook</li>
+        </ul>
+        
+    </footer>
+</body>
+<script>
+    const images = ['img1', 'img2', 'img3', 'img4', 'img5']
+    let i = 0;
+    setInterval(() => {
+        document.querySelector(`.${images[i]}`).style.opacity = '0';
+        if (i > 3) {
+            i = 0;
+        }else{
+            i++;
+        }
+        document.querySelector(`.${images[i]}`).style.opacity = '1';
+        console.log(i);
+    }, 7000);
+        
+    
+
+    
+</script>
+</html>
