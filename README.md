@@ -2,7 +2,7 @@
 
 <h3 align="center"> Projeto de fixação de estudos de flexbox da plataforma DIO. </h3>
 
-### sreenshot
+### screenshot
 <p align="center">
 <img src="./img/screenshot.png" width="500">
 </p>
