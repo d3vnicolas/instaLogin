@@ -2,10 +2,23 @@
 
 <h3 align="center"> Projeto de fixação de estudos de flexbox da plataforma DIO. </h3>
 
-### screenshot
+## screenshot
 <p align="center">
 <img src="./img/screenshot.png" width="500">
 </p>
+
+<br>
+
+## Como rodar
+```bash
+# clone o repositório
+git clone https://github.com/d3vnicolas/instaLogin.git
+
+# acesse o repositório clonado
+cd instaLogin
+
+# abra o arquivo index.html
+```
 
 ##  Desenvolvedor 👨🏽‍💻
 
